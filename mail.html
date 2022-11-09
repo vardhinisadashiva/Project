@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="csss/style.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/jquery.countdown.css" /> <!-- countdown --> 
+<!-- //js -->  
+</head>
+<body>
+		<!-- header -->
+	<div class="head" id="home1">
+		<div class="container">
+			<div class="w3l_login">
+				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+			</div>
+			<div class="w3l_logo">
+							<h1><a href="index.html">Kuteer Store<span>Village store. Your place.</span></a></h1>		</div>
+			<div class="search">
+				<input class="search_box" type="checkbox" id="search_box">
+				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
+				<div class="search_form">
+					<form action="products1.html" method="post">
+						<input type="text" name="Search" placeholder="Search...">
+						<input type="submit" value="Send">
+					</form>		
+				</div>
+			</div>
+			<div class="cart cart box_1"> 
+				<form action="cart.html" method="post" class="last"> 
+					<input type="hidden" name="cmd" value="_cart" />
+					<input type="hidden" name="display" value="1" />
+					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+				</form>   
+			</div>  
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- navigation -->
+
+<div class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>	
+						<!-- Mega Menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+							<ul class="dropdown-menu multi-column columns-3">
+								<div class="row">
+									<div class="col-sm-3">
+										<ul class="multi-column-dropdown">
+											<h6>Bamboo products</h6>
+											<li><a href="products.html">Basket</a></li>
+											<li><a href="products.html">homemade <span>New</span></a></li> 
+											
+											<li><a href="products.html">sarees<span>New</span></a></li>
+										</ul>
+									</div>
+									<div class="col-sm-3">
+										<ul class="multi-column-dropdown">
+											<h6>Bamboo products</h6>
+											<li><a href="products1.html">homemade</a></li>
+											<li><a href="products1.html">sarees</a></li>
+											<li><a href="products1.html">Basket <span>New</span></a></li>
+											
+										</ul>
+									</div>
+									<div class="col-sm-2">
+										<ul class="multi-column-dropdown">
+											<h6>Home</h6>
+											<li><a href="products2.html">homemade</a></li>
+											<li><a href="products2.html">Basket</a></li>
+											
+											<li><a href="products2.html">sarees</a></li>
+										</ul>
+									</div>
+									
+									<div class="clearfix"></div>
+								</div>
+							</ul>
+						</li>
+						<li><a href="about.html" class="act">About Us</a></li> 
+						 
+						<li><a href="mail.html">Mail Us</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+   
+    <section class="right-section">
+        <div id="right-cover" class="cover fade-in-element">
+            <img src="img/cover.png" alt="">
+            <h1>KUTEER UDYOG
+            <button type="button" class="switch-btn" onclick="switchSignup()">mail us</button>
+        </div>
+          <div id="left-form" class="form fade-in-element">
+            <h1><br><br><br><br><br><br><br><br>></h1>
+            <form action="mailto:vardhinisadashiva@gmail.com" method="post">
+                <input type="text" name="user-name" class="input-box" placeholder="Name">
+                <input type="text" name="user-pass" class="input-box" placeholder="Address">
+                 <input type="number" name="pincode" class="input-box" placeholder="pincode">
+                <input type="number" name="phone" class="input-box" placeholder="phone">
+                     <input type="text" name="city" class="input-box" placeholder="city">
+                <input type="text" name="state" class="input-box" placeholder="state">
+                
+
+
+                <input type="submit" name="login-btn" class="btn" value="Mail us">
+                <br>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-md-6 w3agile_newsletter_left">
+				<h3>Newsletter</h3>
+				<p></p>
+			</div>
+			<div class="col-md-6 w3agile_newsletter_right">
+				<form action="mailto:prabhakarkulkarni1999@gmail.com" method="post">
+					<input type="email" name="Email" placeholder="Email" required="">
+					<input type="submit" value="Send" />
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	   <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="w3_footer_grids">
+                <div class="col-md-3 w3_footer_grid">
+                    <h3>Contact</h3>
+                
+                    <ul class="address">
+                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Karnataka<span>India</span></li>
+                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:vardhinisadashiva@gmail.com">vardhinisadashiva@gmail.com</a></li>
+                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:prabhakarkulkarni1999@gmail.com"> prabhakarkulkarni1999@gmail.com</a></li>
+                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"><a href="Mobile Number:0563849851">0563849851</a>  </i><i> <a href="Mobile Number:8722705232">8722705232</a></i></li>
+                
+                    </ul>
+                </div>
+                <div class="col-md-3 w3_footer_grid">
+                    <h3>Information</h3>
+                    <ul class="info"> 
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="mail.html">Contact Us</a></li>
+                        <li><a href="codes.html"></a></li>
+                        <li><a href="faq.html">FAQ's</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3 w3_footer_grid">
+                    <h3>Category</h3>
+                    <ul class="info"> 
+                        <li><a href="products.html">Handcrafts</a></li>
+                        <li><a href="products1.html">handlooms</a></li>
+                        <li><a href="products.html">Edables</a></li>
+                        <li><a href="products1.html">Wearables</a></li>
+            
+                    </ul>
+                </div>
+                <div class="col-md-3 w3_footer_grid">
+                    <h3>Profile</h3>
+                    <ul class="info"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Today's Deals</a></li>
+                    </ul>
+                                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="footer-copy1">
+               s
+            </div>
+            <div class="container">
+                <p>&copy; 2020 VILLAGE Store. All rights reserved | Design by <a href="about.html">Prabhakar kulkarni<br>Vardhini Sadashiva</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- //footer -->  
+    <!-- cart-js -->
+    
+    <!-- //cart-js --> 
+</body>
+
+
+</html>
